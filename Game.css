@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  width: 100%;
+    background-image: url("https://c.tenor.com/vNDpfGSZEA4AAAAC/minecraft-bee.gif");
+ background-color: #cccccc;
+    text-align: center;
+}
+
+input{
+    background-color: yellow;
+    font-size: 40px;
+}
+table, th, td{
+    border: 3px solid #027368;
+    border-collapse: collapse;
+    margin: 50px auto;
+    
+}
+th, td{
+    width: 100px;
+    height: 100px; 
+    background: #034001;
+    font-size: 70px;
+    
+}
