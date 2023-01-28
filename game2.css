@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  width: 100%;
+    overflow: hidden;
+}
+.images, .words{
+    width: 85%;
+    height: 250px;
+    background: rgba(45, 23, 89, 0.3);
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body{
+    background-image: url('https://thumbs.dreamstime.com/b/old-map-world-parchment-background-vintage-styl-style-elements-image-furnished-nasa-133070650.jpg');
+    background-size: cover;
+}
+
+*{
+    border-radius: 25px;
+}
+
+img, .word{
+    width: 200px;
+    
+}
+.word{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lime;
+    height: 150px;
+    text-transform: capitalize;
+}
+h2{
+    color: lime;
+    background-color: black;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
+}
